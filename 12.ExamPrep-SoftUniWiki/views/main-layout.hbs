@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SoftUni Wiki</title>
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+
+<body>
+    <div>
+        <aside>
+            <div class="center">
+                <img class="logo" src="/img/logo.png" alt="logo">
+            </div>
+            {{> navigation}}
+        </aside>
+        <div id="container">
+            {{> header}}
+            <main>
+                <h1>Welcome to SoftUni Wiki!</h1>
+                {{{ body }}}
+            </main>
+            {{> footer}}
+        </div>
+    </div>
+</body>
+    
+</html>
